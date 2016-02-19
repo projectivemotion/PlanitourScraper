@@ -1,5 +1,5 @@
 {
-  "name": "projectivemotion/PlanitourScrapper",
+  "name": "projectivemotion/PlanitourScraper",
   "description": "Scrape planitour.com hotel packages",
   "minimum-stability": "dev",
   "license": "MIT",
