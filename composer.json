@@ -17,7 +17,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "projectivemotion\\": "src/"
+      "projectivemotion\\PlanitourScraper\\": "src/"
     }
   },
   "require": {

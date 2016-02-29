@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "788a2994e57c475956780699ad447b04",
-    "content-hash": "1095065cef35530fe360ad18f2eb13ae",
+    "hash": "09e86d4e48d313498ce282839df8792b",
+    "content-hash": "dacc7984bd24281c6101bd0a87a17740",
     "packages": [
         {
             "name": "atofighi/phpquery",
@@ -57,18 +57,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/projectivemotion/PhpScraperTools.git",
-                "reference": "8df8e9e10207cbdae2c1baf2b411c73978d3a54e"
+                "reference": "b177b5407749ddfa867bee201a1c51eb09b64280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/projectivemotion/PhpScraperTools/zipball/8df8e9e10207cbdae2c1baf2b411c73978d3a54e",
-                "reference": "8df8e9e10207cbdae2c1baf2b411c73978d3a54e",
+                "url": "https://api.github.com/repos/projectivemotion/PhpScraperTools/zipball/b177b5407749ddfa867bee201a1c51eb09b64280",
+                "reference": "b177b5407749ddfa867bee201a1c51eb09b64280",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "projectivemotion\\": "src/"
+                    "projectivemotion\\PhpScraperTools\\": "src/"
                 }
             },
             "license": [
@@ -85,7 +85,7 @@
                 "source": "https://github.com/projectivemotion/PhpScraperTools/tree/master",
                 "issues": "https://github.com/projectivemotion/PhpScraperTools/issues"
             },
-            "time": "2016-02-19 09:59:31"
+            "time": "2016-02-29 16:46:31"
         }
     ],
     "packages-dev": [],

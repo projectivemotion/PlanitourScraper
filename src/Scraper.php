@@ -5,9 +5,11 @@
  * @author Amado Martinez <amado@projectivemotion.com>
  */
 
-namespace projectivemotion;
+namespace projectivemotion\PlanitourScraper;
 
-class PlanitourScraper extends BaseScraper
+use projectivemotion\PhpScraperTools\BaseScraper;
+
+class Scraper extends BaseScraper
 {
     protected $domain   =   'www.planitour.travel';
 
@@ -29,11 +31,6 @@ class PlanitourScraper extends BaseScraper
     {
         $this->setUsername($username);
         $this->setPassword($password);
-    }
-
-    public function getCookieFileName()
-    {
-        return __CLASS__ . '.txt';
     }
 
     public function doLogin()
@@ -96,6 +93,7 @@ class PlanitourScraper extends BaseScraper
 
     public function getResults($page_num = 0, $Country, $City)
     {
+        // @todo fix caching requests.
         $getvars    =   $page_num ? '?page=' . $page_num : '';
         
         $response   =   $this->cache_get('/hotel-list.php' . $getvars, NULL, FALSE);
