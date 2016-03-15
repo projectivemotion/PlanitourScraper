@@ -1,18 +1,15 @@
 {
-  "name": "projectivemotion/PlanitourScraper",
+  "name": "projectivemotion/planitour-scraper",
   "description": "Scrape planitour.com hotel packages",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
+  "keywords": ["hotels", "scraper","planitour"],
   "license": "MIT",
   "authors": [
     {
       "name": "Amado Martinez",
-      "email": "amado@projectivemotion.com"
-    }
-  ],
-  "repositories": [
-    {
-      "url": "https://github.com/projectivemotion/PhpScraperTools",
-      "type": "vcs"
+      "email": "amado@projectivemotion.com",
+      "role": "Developer",
+      "homepage": "http://projectivemotion.com"
     }
   ],
   "autoload": {
@@ -21,7 +18,7 @@
     }
   },
   "require": {
-    "projectivemotion/PhpScraperTools": "0.0.2",
+    "projectivemotion/php-scraper-tools": "0.0.*",
     "atofighi/phpquery": "2.0.1"
   }
 }

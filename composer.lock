@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2163994df109b61eb860b14900bcb363",
-    "content-hash": "136e481edb2feb24644f03e5c6bd4df8",
+    "hash": "3c1d087ce583aeeefa496922aedbf01f",
+    "content-hash": "a8b59ece766445fcea8e9390fca13add",
     "packages": [
         {
             "name": "atofighi/phpquery",
@@ -52,18 +52,22 @@
             "time": "2015-11-10 17:41:36"
         },
         {
-            "name": "projectivemotion/PhpScraperTools",
-            "version": "0.0.2",
+            "name": "projectivemotion/php-scraper-tools",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/projectivemotion/PhpScraperTools.git",
-                "reference": "bcbbc5122f028dc3e483f41006e00f00d8fc27db"
+                "url": "https://github.com/projectivemotion/php-scraper-tools.git",
+                "reference": "a3d931f94d27a29f184d5f5c31d395f7372e9c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/projectivemotion/PhpScraperTools/zipball/bcbbc5122f028dc3e483f41006e00f00d8fc27db",
-                "reference": "bcbbc5122f028dc3e483f41006e00f00d8fc27db",
+                "url": "https://api.github.com/repos/projectivemotion/php-scraper-tools/zipball/a3d931f94d27a29f184d5f5c31d395f7372e9c09",
+                "reference": "a3d931f94d27a29f184d5f5c31d395f7372e9c09",
                 "shasum": ""
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1",
+                "phpunit/phpunit": "5.0.*"
             },
             "type": "library",
             "autoload": {
@@ -71,6 +75,7 @@
                     "projectivemotion\\PhpScraperTools\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -81,16 +86,12 @@
                 }
             ],
             "description": "PHP Curl Wrapper. Written specifically for scraping purposes.",
-            "support": {
-                "source": "https://github.com/projectivemotion/PhpScraperTools/tree/0.0.2",
-                "issues": "https://github.com/projectivemotion/PhpScraperTools/issues"
-            },
-            "time": "2016-03-11 07:17:21"
+            "time": "2016-03-11 22:47:25"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
