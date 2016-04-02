@@ -7,9 +7,9 @@
 
 namespace projectivemotion\PlanitourScraper;
 
-use projectivemotion\PhpScraperTools\BaseScraper;
+use projectivemotion\PhpScraperTools\CacheScraper;
 
-class Scraper extends BaseScraper
+class Scraper extends CacheScraper
 {
     protected $domain   =   'www.planitour.travel';
 
@@ -190,5 +190,6 @@ class Scraper extends BaseScraper
     public function curl_setopt($ch)
     {
         curl_setopt($ch, CURLOPT_TIMEOUT, 3600);
+        parent::curl_setopt($ch);
     }
 }
