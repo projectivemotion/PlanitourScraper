@@ -8,9 +8,19 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 if($argc < 3)
-    die("$argv[0] [user] [pass]");
+{
+    $travis_ci  =   getenv('planitour_login');
+    if($travis_ci)
+    {
+        list($username, $password)  =   explode(':', $travis_ci);
+    }else
+        die("$argv[0] [user] [pass]");
+}else{
+    $username   =   $argv[1];
+    $password   =   $argv[2];
+}
 
-$planitour  =   new \projectivemotion\PlanitourScraper\Scraper($argv[1], $argv[2]);
+$planitour  =   new \projectivemotion\PlanitourScraper\Scraper($username, $password);
 $planitour->cacheOn();
 $planitour->verboseOff();
 

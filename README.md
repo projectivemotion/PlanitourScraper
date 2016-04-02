@@ -1,6 +1,8 @@
 # Planitour-Scraper
 Planitour Hotels Scraper
 
+[![Build Status](https://travis-ci.org/projectivemotion/planitour-scraper.svg?branch=master)](https://travis-ci.org/projectivemotion/planitour-scraper)
+
 
 ## Use at your own risk!
 * I am not responsible for your use of this software.
